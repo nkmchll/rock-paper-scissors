@@ -5,17 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>Rock Paper Scissor</h1>
+    <p class="introText">are you ready to defeat a computer?</p>
+    <p class="introText">first one to score a five wins</p>
+    <p class="introText">choose your weapon:</p>
+
     <script src = rps.js defer></script>
-    <button id="rockButton">rock</button>
-    <button id="paperButton">paper</button>
-    <button id="scissorButton">scissor</button>
+    <div class="container">
+        <button class = "buttons" id="rockButton"><img src = "./images/rock.png" width="100"></button>
+        <button class = "buttons" id="paperButton"><img src = "./images/paper.png" width="100"></button>
+        <button class = "buttons" id="scissorButton"><img src = "./images/scissor.png" width="100"></button>
+    </div>
+    
     <p id="userScore">Your Score: </p>
     <p id="computerScore">Computer's Score:</p>
     <p id="output"></p>
     <p id="gameWinner"></p>
-    <button id="playAgainButton">Play Again</button>
+    <div class="container2">
+        <button id="playAgainButton">Play Again</button>
+    </div>
+    
 </body>
 </html>

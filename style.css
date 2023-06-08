@@ -1,0 +1,86 @@
+body{
+    background-image: url("./images/background.jpeg");
+}
+
+.introText{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100%;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 5px 2px 5px rgb(88, 88, 88);
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.buttons{
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.buttons:hover{
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+.buttons img{
+    width: 100px;
+    height: 100px;
+}
+
+#userScore{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#computerScore{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#output{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameWinner{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container2 button{
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
