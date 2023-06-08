@@ -77,10 +77,10 @@ const overallWinner = document.getElementById('gameWinner');
 function gameWinner(){
     
     if (computerScore===5){
-        overallWinner.textContent = "Game Over! YOU LOST! Press button to play again."; 
+        overallWinner.textContent = "Game Over! You Lost! Press button to play again."; 
     }
     else if (userScore === 5){
-       overallWinner.textContent = "Game Over! YOU WON! Press button to play again.";
+       overallWinner.textContent = "Game Over! You Won! Press button to play again.";
     }
 }
 
@@ -92,6 +92,7 @@ function playAgain() {
     computerScore = 0;
     scoreTracker();
     overallWinner.textContent = "";
+    output.textContent = "";
     rockButton.disabled = false;
     paperButton.disabled = false;
     scissorButton.disabled = false;
