@@ -97,21 +97,3 @@ function playAgain() {
     scissorButton.disabled = false;
 
   }
-
-
-/*
-function game(){
-    for (let i = 0; i < 5; i++){
-        const playerSelection = getPlayerChoice();
-        const computerSelection = getComputerChoice();
-        console.log(playRound(playerSelection, computerSelection));
-        console.log("Your Score: " + userScore);
-        console.log("Computer's Score: " + computerScore);
-    }
-
-   
-}
-    
-console.log(game());
-
-*/
